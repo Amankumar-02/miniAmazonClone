@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav ,.footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2rem;
+}
+.navSearch input{
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #FBB97F;
+    padding-left: 1rem;
+    background-color: gray;
+}
+.navSearch input::placeholder{
+    color: white;
+}
+.navBtn button{
+    margin-right: 10px;    
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: 1px solid #FBB97F;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FBB97F;
+    background-color: gray;
+}
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    width: 90%;
+    margin: 1rem auto;
+}
+.container{
+    width: 400px;
+    height: auto;
+    border: 1px solid grey;
+    padding: 1rem;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.img{
+    height: 180px;
+    width: 180px;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+    .nav ,.footer{
+        height: auto;
+        flex-direction: column;
+        gap: 5px;
+        padding: 1rem 2rem;
+    }
+    .nav img ,.footer img{
+        height: 50px;
+        width: 50px;
+    }
+    .navSearch input{
+        height: 30px;
+        width: 200px;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid #FBB97F;
+        padding-left: 1rem;
+        background-color: gray;
+    }
+
+}
