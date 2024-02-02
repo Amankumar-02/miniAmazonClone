@@ -51,7 +51,7 @@ function App() {
       <h2 style={{color:"#FBB97F"}}>Amazon.in</h2>
       </div>
       <div>
-        <h2 style={{color:"#FBB97F"}}>All Right are reserved. 2024</h2>
+        <h2 style={{color:"#FBB97F", textAlign:"center"}}>All Right are reserved. 2024</h2>
       </div>
       <div className='navBtn'>
         <button>LinedIn</button>
